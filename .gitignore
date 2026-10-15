@@ -1,0 +1,20 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+credentials.json
+
+# Local packaging and editor files
+*.zip
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
